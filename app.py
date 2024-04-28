@@ -67,7 +67,9 @@ with st.sidebar:
     # with open(filepath, "wb") as temp_file:
     #         temp_file.write(uploaded_file.read())
 
-    displayPDF("https://jcheminf.biomedcentral.com/counter/pdf/10.1186/1758-2946-5-7.pdf")
+    st.markdown("""
+    <embed src="https://jcheminf.biomedcentral.com/counter/pdf/10.1186/1758-2946-5-7.pdf" width="100%" height="600">
+    """, unsafe_allow_html=True)
 
     st.divider()
 
