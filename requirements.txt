@@ -1,0 +1,17 @@
+matplotlib==3.8.3
+numpy==1.26.4
+openai==1.13.3
+pandas==1.5.3
+python-dotenv==1.0.0
+seaborn==0.13.0
+streamlit==1.27.2
+langchain==0.1.14
+langchain-community==0.0.31
+langchain-core==0.1.40
+langchain-experimental==0.0.56
+langchain-openai==0.0.8
+langchain-text-splitters==0.0.1
+pymupdf==1.24.1
+faiss-cpu==1.8.0
+frontend==0.0.3
+docx2txt==
